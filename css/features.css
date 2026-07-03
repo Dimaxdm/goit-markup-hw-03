@@ -1,0 +1,7 @@
+/*--- properties unset for features title, which should be hidden on next step of the project ---*/
+.features-title {
+  font-size: unset;
+  font-weight: unset;
+  line-height: unset;
+  text-align: unset;
+}

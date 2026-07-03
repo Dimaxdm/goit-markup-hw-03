@@ -1,0 +1,56 @@
+:root {
+  --primary-title-and-subtitle-color: #2e2f42;
+  --primary-text-color: #434455;
+  --primary-text-font-size: 16px;
+  --primary-subtitle-font-size: 20px;
+  --primary-title-font-size: 36px;
+  --primary-subtitle-font-weight: 500;
+  --primary-title-font-weight: 700;
+  --primary-text-line-height: 1.5;
+  --primary-subtitle-line-height: 1.2;
+  --primary-title-line-height: 1.11;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-- repetative property for all titles and subtitles (to follow DRY principle) --*/
+h2,
+h3 {
+  color: var(--primary-title-and-subtitle-color);
+}
+
+/*-- repetative properties for all h2 (to follow DRY principle) --*/
+body h2 {
+  font-size: var(--primary-title-font-size);
+  font-weight: var(--primary-title-font-weight);
+  line-height: var(--primary-title-line-height);
+  text-align: center;
+}
+
+/*-- repetative properties for all h3 (to follow DRY principle) --*/
+body h3 {
+  font-size: var(--primary-subtitle-font-size);
+  font-weight: var(--primary-subtitle-font-weight);
+  line-height: var(--primary-subtitle-line-height);
+}
+
+/*-- repetative properties for all text class (to follow DRY principle) --*/
+.text {
+  color: var(--primary-text-color);
+  font-size: var(--primary-text-font-size);
+  line-height: var(--primary-text-line-height);
+}
