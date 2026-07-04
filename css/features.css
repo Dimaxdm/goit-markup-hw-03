@@ -1,7 +1,25 @@
-/*--- properties unset for features title, which should be hidden on next step of the project ---*/
-.features-title {
-  font-size: unset;
-  font-weight: unset;
-  line-height: unset;
-  text-align: unset;
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-list-item {
+  width: calc((100% - 24px * 3) / 4);
+}
+
+.features-subtitle {
+  margin-bottom: 8px;
 }

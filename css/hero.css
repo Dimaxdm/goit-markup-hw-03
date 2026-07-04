@@ -1,8 +1,18 @@
 .hero-section {
   background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-title {
+  max-width: 496px;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -11,13 +21,15 @@
 }
 
 .hero-button {
+  border-radius: 4px;
+  max-width: calc(169px + 16px * 2);
+  padding: 16px 32px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   background: #4d5ae5;
 }
 

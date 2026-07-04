@@ -21,10 +21,38 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+button {
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
 }
 
 /*-- repetative property for all titles and subtitles (to follow DRY principle) --*/

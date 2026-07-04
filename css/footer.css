@@ -1,3 +1,11 @@
+.footer-site {
+  padding: 100px 0;
+}
+
+.footer-wraper {
+  max-width: 264px;
+}
+
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
@@ -6,6 +14,8 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-accent {
@@ -18,4 +28,5 @@
 
 .footer-text {
   color: #f4f4fd;
+  max-width: 264px;
 }
