@@ -18,12 +18,13 @@
 }
 
 .team-list-img {
+  display: block;
   max-width: 100%;
   object-fit: cover;
 }
 
 .team-list-wrap {
-  padding: 32px 0;
+  padding: 32px 16px;
   gap: 8px;
 }
 

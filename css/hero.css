@@ -22,7 +22,6 @@
 
 .hero-button {
   border-radius: 4px;
-  max-width: calc(169px + 16px * 2);
   padding: 16px 32px;
   font-family: inherit;
   font-weight: 500;
